@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* styling for site */
+ul {
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+button{
+    cursor:pointer;
+    border: none;
+    background: none;
+}
+image{
+    width: 100%;
+}
+/* styling for navbar */
+header {
+    position: fixed;
+    width: 100%;
+    z-index: 5;
+    background: #3b141c;
+}
+header .navbar{
+     display: flex;
+     padding:20px ;
+     align-items: center;
+     justify-content: space-between;
+}
+.navbar .nav-logo .logo-text {
+    color: white;
+}
+.navbar .nav-menu {
+    display: flex;
+    gap: 10px;
+}
+.navbar .nav-menu .nav-link {
+    padding: 10px 18px;
+    color: white;
+    font-size: 1.2rem;
+    border-radius: 30px;
+    transition: 0.3s ease;
+}
+.navbar .nav-menu .nav-link:hover{
+    color: #3b141c;
+    background: #f3961c;
+}
+.hero-section{
+    min-height: 100vh;
+   background:#1d1d1d
+}
+.hero-section .section-content{
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    color:white;
+    justify-content:space-between;
+    padding: 2rem ;
+}
+.hero-section .hero-details .title{
+    font-size:2.3rem;
+    color:#f3961c;
+    font-family:arial;
+}
+.hero-section .hero-details .subtitle{
+   margin-top: 8px;
+   max-width: 70%;
+    font-size:2rem;
+   font: weight 600;
+}
+.hero-section .hero-details .description{
+max-width: 70%;
+margin: 24px 0 40px;
+font-size:1.12rem;
+}
+.hero-section .hero-details .button{
+    padding: 10px 26px;
+    color:#3b141c;
+    border-radius:30px;
+    color:#f3961c;
+       transition:0.3 ease;
+}
+.hero-section .hero-details .button:hover,
+.hero-section .hero-details .order-now,
+.hero-section .hero-details .content-us{
+    color: white;
+    border-color: white;
+    background: transparent;
+}
+.hero-section .hero-details .content-us{
+     color:#3b141c;
+    border-color: #f3961c;
+    background: #f3961c;
+    transition:0.3 ease
+}
+.hero-section .hero-details .order-now{
+     color:#3b141c;
+    border-color: #f3961c;
+    background: #f3961c;
+    transition:0.3 ease
+}
+.hero-section .hero-image-wapper{
+   max-width: 500px; 
+   margin-right: 30px;
+}
