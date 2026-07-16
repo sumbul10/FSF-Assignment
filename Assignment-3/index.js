@@ -93,7 +93,7 @@ if (season === "summer") {
         <div class="badge">Flowery</div>
 
         <div class="product-thumb">
-            <img src="image/Spring.jpg" alt="Spring">
+            <img src="image/spring.jpg" alt="Spring">
         </div>
 
         <div class="product-detail">
