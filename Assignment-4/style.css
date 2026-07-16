@@ -1,0 +1,64 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#f1f1f1;
+    background-image: url("image/bg-image.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+    
+}
+
+#products{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.card{
+    width:330px;
+    background:#fff;
+    border-radius:15px;
+    overflow:hidden;
+    box-shadow:0 10px 20px rgba(0,0,0,.2);
+    text-align:center;
+}
+
+.card img{
+    width:130px;
+    margin:20px auto;
+    display:block;
+}
+
+.card h2{
+    font-size:35px;
+    margin-bottom:10px;
+}
+
+.card p{
+    color:#555;
+    margin:8px 0;
+    font-size:20px;
+}
+
+.card .grade{
+    font-size:45px;
+    font-weight:bold;
+}
+
+.card button{
+    width:100%;
+    padding:18px;
+    border:none;
+    color:white;
+    font-size:25px;
+    cursor:pointer;
+}
