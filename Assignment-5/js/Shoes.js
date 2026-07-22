@@ -2,40 +2,40 @@
 
 const products = [
 {
-    name: "Smart Watch",
+    name: "Shoes",
     price: 99,
     image: "image/Shoes1.jpg",
-    description: "Premium smartwatch with fitness tracking and heart rate monitoring."
+    description: "Step into comfort and style with these premium-quality shoes, designed for everyday wear."
 },
 {
-    name: "Wireless Earbuds",
+    name: "Shoes",
     price: 49,
     image: "image/Shoes2.jpg",
-    description: "Noise cancelling wireless earbuds with crystal clear sound."
+    description: "Lightweight, durable, and fashionable shoes perfect for any occasion."
 },
 {
-    name: "Bluetooth Speaker",
+    name: "Shoes",
     price: 69,
     image: "image/Shoes3.jpg",
-    description: "Portable Bluetooth speaker with deep bass and long battery life."
+    description: "Experience all-day comfort with stylish shoes crafted for modern living."
 },
 {
-    name: "Gaming Mouse",
+    name: "Shoes",
     price: 39,
     image: "image/Shoes4.jpg",
-    description: "RGB gaming mouse with adjustable DPI and ergonomic design."
+    description: "Premium shoes that combine elegance, comfort, and long-lasting durability."
 },
 {
-    name: "Mechanical Keyboard",
+    name: "Shoes",
     price: 89,
     image: "image/Shoes5.jpg",
-    description: "Mechanical keyboard with colorful RGB lighting."
+    description: "Designed for maximum comfort and a trendy look, wherever you go."
 },
 {
-    name: "Laptop Stand",
+    name: "Shoes",
     price: 35,
     image: "image/Shoes6.jpg",
-    description: "Aluminum laptop stand for better posture and cooling."
+    description: "Walk with confidence in these stylish and comfortable everyday shoes."
 },
 ];
 

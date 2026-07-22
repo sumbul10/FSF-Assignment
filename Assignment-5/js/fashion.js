@@ -1,62 +1,62 @@
 const products = [
   {
-    name: "Smart Watch",
+    name: " cloths",
     price: 99,
     image: "image/fashion1.png",
     description:
       "Premium smartwatch with fitness tracking and heart rate monitoring.",
   },
   {
-    name: "Wireless Earbuds",
+    name: " cloths",
     price: 49,
     image: "image/fashion2.png",
     description: "Noise cancelling wireless earbuds with crystal clear sound.",
   },
   {
-    name: "Bluetooth Speaker",
+    name: " cloths",
     price: 69,
     image: "image/fashion3.png",
     description:
       "Portable Bluetooth speaker with deep bass and long battery life.",
   },
   {
-    name: "Gaming Mouse",
+    name: " cloths",
     price: 39,
     image: "image/fashion4.png",
     description: "RGB gaming mouse with adjustable DPI and ergonomic design.",
   },
   {
-    name: "Mechanical Keyboard",
+    name: " cloths",
     price: 89,
     image: "image/fashion5.png",
     description: "Mechanical keyboard with colorful RGB lighting.",
   },
   {
-    name: "Laptop Stand",
+    name: " cloths",
     price: 35,
     image: "image/fashion6.png",
     description: "Aluminum laptop stand for better posture and cooling.",
   },
   {
-    name: "Power Bank",
+    name: " cloths",
     price: 45,
     image: "image/fashion7.png",
     description: "10000mAh fast charging power bank for smartphones.",
   },
   {
-    name: "USB Hub",
+    name: " cloths",
     price: 25,
     image: "image/fashion8.png",
     description: "4-Port USB hub with high-speed data transfer.",
   },
   {
-    name: "Webcam",
+    name: " cloths",
     price: 75,
     image: "image/fashion9.png",
     description: "HD webcam perfect for online meetings and streaming.",
   },
   {
-    name: "Monitor",
+    name: " clothsr",
     price: 199,
     image: "image/fashion10.png",
     description: "24-inch Full HD IPS monitor with vibrant display.",
