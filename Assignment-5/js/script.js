@@ -1,69 +1,59 @@
 const products = [
   {
-    id : 1,
-    name: "Majestic Audio Pro",
-    image: "images/product1.png",
-    price: "Rs.26,959"
-  },
-  {
-    id :2,
-    name: "Pebble Earbuds",
-    image: "images/product2.png",
-    price: "Rs.6,995"
-  },
-  {
-    id :3,
-    name: "Aqua Power Bank",
-    image: "image/Aqua-Power-Bank.png",
-    price: "Rs.7,975"
-  },
-  {
-    id :4,
-    name: "Lucid Earbuds",
-    image: "images/product4.png",
-    price: "Rs.6,595"
-  },
-  {
-    id :5,
     name: "Smart Watch",
-    image: "images/product5.png",
-    price: "Rs.8,999"
+    price: 99,
+    image: "image/electronics1.jpg",
+    description:
+      "Premium smartwatch with fitness tracking and heart rate monitoring.",
   },
   {
-    id :6,
+    name: "Wireless Earbuds",
+    price: 49,
+    image: "image/electronics2.jpg",
+    description: "Noise cancelling wireless earbuds with crystal clear sound.",
+  },
+  {
     name: "Bluetooth Speaker",
-    image: "images/product6.png",
-    price: "Rs.5,299"
+    price: 69,
+    image: "image/electronics3.jpg",
+    description:
+      "Portable Bluetooth speaker with deep bass and long battery life.",
   },
   {
-    id :7,
-    name: "Wireless Mouse",
-    image: "images/product7.png",
-    price: "Rs.2,999"
-  }
+    name: "Gaming Mouse",
+    price: 39,
+    image: "image/electronics4.jpg",
+    description: "RGB gaming mouse with adjustable DPI and ergonomic design.",
+  },
 ];
 
-let html = '';
+let html = "";
 
-let container = document.getElementById('product');
+let container = document.getElementById("product");
 
-for(let i=0; i<products.length; i++){
-
+for (let i = 0; i < products.length; i++) {
   html += `
-   <div class="item">
-   
-    <img src="${products[i].image}" alt="">
+    <div class="item">
 
-    <div class="content">
-      <p class="price">$ ${products[i].price}</p>
-      <h3> ${products[i].name} </h3>
-      <p class="desc"> ${products[i].description.slice(0,56)} </p>
-      <button>Order Now</button>
+        <img src="${products[i].image}" alt="${products[i].name}">
+
+        <div class="content">
+            <p class="price">$${products[i].price}</p>
+
+            <h3>${products[i].name}</h3>
+
+            <p class="desc">
+                ${products[i].description.slice(0, 60)}...
+            </p>
+   <div class="rating">
+                ⭐⭐⭐⭐☆
+            </div>
+
+            <button>Order Now</button>
+        </div>
+
     </div>
-
-  </div>
-  
-  `
+    `;
 }
 
 container.innerHTML = html;

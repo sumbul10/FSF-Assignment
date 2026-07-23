@@ -1,42 +1,130 @@
-
-
 const products = [
-{
-    name: "Shoes",
+  {
+    name: "Nike Air Runner",
     price: 99,
     image: "image/Shoes1.jpg",
-    description: "Step into comfort and style with these premium-quality shoes, designed for everyday wear."
-},
-{
-    name: "Shoes",
+    description:
+      "Step into comfort and style with these premium-quality shoes, designed for everyday wear.",
+  },
+  {
+    name: "Nike Zoom Fly",
     price: 49,
     image: "image/Shoes2.jpg",
-    description: "Lightweight, durable, and fashionable shoes perfect for any occasion."
-},
-{
-    name: "Shoes",
+    description:
+      "Lightweight, durable, and fashionable shoes perfect for any occasion.",
+  },
+  {
+    name: "Nike Revolution",
     price: 69,
     image: "image/Shoes3.jpg",
-    description: "Experience all-day comfort with stylish shoes crafted for modern living."
-},
-{
-    name: "Shoes",
+    description:
+      "Experience all-day comfort with stylish shoes crafted for modern living.",
+  },
+  {
+    name: "Nike Air Max",
     price: 39,
     image: "image/Shoes4.jpg",
-    description: "Premium shoes that combine elegance, comfort, and long-lasting durability."
-},
-{
-    name: "Shoes",
+    description:
+      "Premium shoes that combine elegance, comfort, and long-lasting durability.",
+  },
+  {
+    name: "Vans Old Skool",
     price: 89,
     image: "image/Shoes5.jpg",
-    description: "Designed for maximum comfort and a trendy look, wherever you go."
-},
-{
-    name: "Shoes",
+    description:
+      "Designed for maximum comfort and a trendy look, wherever you go.",
+  },
+  {
+    name: "New Balance 574",
     price: 35,
     image: "image/Shoes6.jpg",
-    description: "Walk with confidence in these stylish and comfortable everyday shoes."
-},
+    description:
+      "Walk with confidence in these stylish and comfortable everyday shoes.",
+  },
+  {
+    name: "Leather Oxford Dress Shoes",
+    price: 99,
+    image: "image/Shoes7.jpg",
+    description:
+      "Step into comfort and style with these premium-quality shoes, designed for everyday wear.",
+  },
+  {
+    name: "Leather Derby Shoes",
+    price: 49,
+    image: "image/Shoes8.jpg",
+    description:
+      "Lightweight, durable, and fashionable shoes perfect for any occasion.",
+  },
+  {
+    name: "Lightweight Running Shoes",
+    price: 69,
+    image: "image/Shoes9.jpg",
+    description:
+      "Experience all-day comfort with stylish shoes crafted for modern living.",
+  },
+  {
+    name: "Casual Walking Shoes",
+    price: 39,
+    image: "image/Shoes10.jpg",
+    description:
+      "Premium shoes that combine elegance, comfort, and long-lasting durability.",
+  },
+  {
+    name: "Breathable Mesh Sneakers",
+    price: 89,
+    image: "image/Shoes11.jpg",
+    description:
+      "Designed for maximum comfort and a trendy look, wherever you go.",
+  },
+  {
+    name: "Performance Training Shoes",
+    price: 35,
+    image: "image/Shoes12.jpg",
+    description:
+      "Walk with confidence in these stylish and comfortable everyday shoes.",
+  },
+  {
+    name: "Cushioned Running Shoes",
+    price: 68,
+    image: "image/Shoes13.jpg",
+    description:
+      "The perfect blend of fashion, comfort, and performance in every step..",
+  },
+  {
+    name: "Fashion Sneakers",
+    price: 40,
+    image: "image/Shoes14.jpg",
+    description:
+      "Premium shoes that combine elegance, comfort, and long-lasting durability.",
+  },
+  {
+    name: "Athletic Sports Shoes",
+    price: 88,
+    image: "image/Shoes15.jpg",
+    description:
+      "Designed for maximum comfort and a trendy look, wherever you go.",
+  },
+  {
+    name: "Gym Training Shoes",
+    price: 34,
+    image: "image/Shoes16.jpg",
+    description:
+      "Walk with confidence in these stylish and comfortable everyday shoes.",
+  },
+  {
+    name: "Everyday Comfort Shoes",
+    price: 69,
+    image: "image/Shoes17.jpg",
+    description:
+      "Experience all-day comfort with stylish shoes crafted for modern living.",
+  },
+  {
+    name: "Premium Casual Sneakers",
+    price: 39,
+    image: "image/Shoes18.jpg",
+    description:
+      "The perfect blend of fashion, comfort, and performance in every step..",
+  },
 ];
 
 let html = "";
@@ -44,8 +132,7 @@ let html = "";
 let container = document.getElementById("product");
 
 for (let i = 0; i < products.length; i++) {
-
-    html += `
+  html += `
     <div class="item">
 
         <img src="${products[i].image}" alt="${products[i].name}">

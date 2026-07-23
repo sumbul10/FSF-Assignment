@@ -1,113 +1,127 @@
 const products = [
   {
-    name: " cloths",
+    name: "Black Lace Midi Dress",
     price: 99,
     image: "image/fashion1.png",
     description:
-      "Premium smartwatch with fitness tracking and heart rate monitoring.",
+      "Elegant black lace midi dress with a flowy pleated skirt, perfect for parties and formal occasions.",
   },
   {
-    name: " cloths",
+    name: "Floral Belted Maxi Dress",
     price: 49,
     image: "image/fashion2.png",
-    description: "Noise cancelling wireless earbuds with crystal clear sound.",
+    description:
+      "Stylish floral print maxi dress featuring a fitted waist belt for a modern and graceful look.",
   },
   {
-    name: " cloths",
+    name: "Colorful Striped Maxi Dress",
     price: 69,
     image: "image/fashion3.png",
     description:
-      "Portable Bluetooth speaker with deep bass and long battery life.",
+      "Vibrant striped maxi dress with a flowing design, offering comfort and effortless everyday style.",
   },
   {
-    name: " cloths",
+    name: "Silver Wrap Mini Dress",
     price: 39,
     image: "image/fashion4.png",
-    description: "RGB gaming mouse with adjustable DPI and ergonomic design.",
+    description:
+      "A chic sleeveless wrap mini dress with a flattering fit, perfect for casual outings and evening events.",
   },
   {
-    name: " cloths",
+    name: "Red Floral Midi Dress",
     price: 89,
     image: "image/fashion5.png",
-    description: "Mechanical keyboard with colorful RGB lighting.",
+    description:
+      "An elegant floral print midi dress with long sleeves, offering a timeless and graceful look.",
   },
   {
-    name: " cloths",
+    name: "Pink Floral Maxi Dress",
     price: 35,
     image: "image/fashion6.png",
-    description: "Aluminum laptop stand for better posture and cooling.",
+    description:
+      "A beautiful off-shoulder floral maxi dress with a flowing silhouette, ideal for weddings and summer occasions.",
   },
   {
-    name: " cloths",
+    name: "Blush Off-Shoulder Maxi Dress",
     price: 45,
     image: "image/fashion7.png",
-    description: "10000mAh fast charging power bank for smartphones.",
+    description:
+      "A graceful off-shoulder maxi dress with a flowing silhouette, perfect for summer outings and special occasions.",
   },
   {
-    name: " cloths",
+    name: "Elegant Black Evening Gown",
     price: 25,
     image: "image/fashion8.png",
-    description: "4-Port USB hub with high-speed data transfer.",
+    description:
+      "A sophisticated full-length black gown with a timeless design, ideal for formal events and evening parties.",
   },
   {
-    name: " cloths",
+    name: "Coral Chiffon Maxi Dress",
     price: 75,
     image: "image/fashion9.png",
-    description: "HD webcam perfect for online meetings and streaming.",
+    description:
+      "A lightweight chiffon maxi dress with a vibrant coral color, offering elegance and comfort for any celebration.",
   },
   {
-    name: " clothsr",
+    name: "Pink Maxi Dress",
     price: 199,
     image: "image/fashion10.png",
-    description: "24-inch Full HD IPS monitor with vibrant display.",
+    description:
+      "A graceful flowing pink maxi dress, perfect for parties and special occasions.",
   },
   {
-    name: "Tablet",
+    name: "Navy Blue Business Suit",
     price: 249,
     image: "image/fashion11.jpg",
-    description: "Android tablet with 10-inch display and powerful processor.",
+    description:
+      "A modern slim-fit navy suit designed for a sharp and professional look.",
   },
   {
-    name: "Wireless Charger",
+    name: "Black Turtleneck Blazer Outfit",
     price: 29,
     image: "image/fashion12.jpg",
-    description: "Fast wireless charging pad compatible with all Qi devices.",
+    description:
+      "A stylish black blazer with a turtleneck for a sleek and sophisticated appearance.",
   },
   {
-    name: "Action Camera",
+    name: "Charcoal Three-Piece Suit",
     price: 159,
     image: "image/fashion13.jpg",
-    description: "4K waterproof action camera for adventures.",
+    description:
+      "A classic three-piece suit designed for elegance and formal events.",
   },
   {
-    name: "Drone",
+    name: "Casual Streetwear Outfit",
     price: 399,
     image: "image/fashion14.jpg",
-    description: "HD camera drone with GPS and intelligent flight modes.",
+    description: "A relaxed and trendy outfit for everyday casual wear.",
   },
   {
-    name: "Smart TV",
+    name: "White Summer Co-ord Set",
     price: 599,
     image: "image/fashion15.jpg",
-    description: "43-inch 4K Ultra HD Smart TV with Android system.",
+    description:
+      "A lightweight matching set ideal for a fresh and comfortable style.",
   },
   {
-    name: "Headphones",
+    name: "Classic Yellow T-Shirt",
     price: 89,
     image: "image/fashion16.jpg",
-    description: "Over-ear wireless headphones with rich sound quality.",
+    description: "A soft cotton t-shirt perfect for casual everyday wear.",
   },
   {
-    name: "Digital Camera",
+    name: "Checked Overshirt Outfit",
     price: 499,
     image: "image/fashion17.jpg",
-    description: "Professional digital camera with 24MP sensor.",
+    description:
+      "A fashionable checked overshirt layered for a smart casual look.",
   },
   {
-    name: "VR Headset",
+    name: "Graphic Print T-Shirt",
     price: 299,
     image: "image/fashion18.jpg",
-    description: "Immersive virtual reality headset for gaming.",
+    description:
+      "A comfortable printed t-shirt with a modern and trendy design.",
   },
 ];
 
