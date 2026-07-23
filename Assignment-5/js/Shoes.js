@@ -124,7 +124,7 @@ const products = [
     image: "image/Shoes18.jpg",
     description:
       "The perfect blend of fashion, comfort, and performance in every step..",
-  },
+  }
 ];
 
 let html = "";
